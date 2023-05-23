@@ -82,8 +82,6 @@ const Form: React.FC = () => {
     } catch (error) {
       setResponse(error.response.data.type||error.response.data.name)
     }
-
-    console.log(formData);
   };
 
   const renderPizzaFields = () => {
