@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.formbody {
+  width: 40%;
+  margin: 1rem auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type="text"] {
+  width: 100%;
+  font-size: 1.2rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.preptime {
+  width: 3.5rem;
+}
+
+.inputGroup {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.inputGroup:last-child {
+  margin-bottom: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pizzaFields {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pizzaFields, .sandwichFields input {
+  width: 10rem;
+}
+
+.soupFields {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+.soupFields input{
+  width: 10rem;
+}
+
+.sandwichFields {
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+
+button{
+  width: 100%;
 }
